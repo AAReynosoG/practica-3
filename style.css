@@ -1,19 +1,90 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
+
 header{
     background-color: #4267b2;
-    padding: 50px;
     display: flex;
-    
-    
+    height: 8.5em;
 }
+
 #logo{
     width: 300px;
-    height: 75px;
-    
+    height: 80px;
+    position: relative;
+    left: 200px;
+    top: 10px;   
 }
+
+#head {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+
+  .input-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 20px;
+  }
+  
+  .labels {
+    margin-bottom: 5px;
+  }
+  
+  .inputs {
+    width: 150px;
+  }
+
+  #input1{
+    border: 1px solid #1d1c1c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+
+  #input2{
+    border: 1px solid #1d1c1c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+  
+  #boton1{
+    border: none;
+    border: 1px solid #1d1c1c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    position: relative;
+    top: 23px;
+    background-color: #698fdb;
+    left: 5px;
+    color: whitesmoke;
+    
+  }
+
+  #label1{
+
+    color: whitesmoke;
+  }
+
+  #label2{
+    color: whitesmoke;
+  }
+
+  #Titulo{
+    margin: 0;
+    padding: 0;
+    font-family: kanit;
+    color: white;
+    margin-right: auto;
+    font-size: 3em;
+    position: relative;
+    left: 150px;
+    top: 40px;
+  }
+  
+
