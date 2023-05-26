@@ -101,11 +101,95 @@ header{
     left: 40px;
     top: 40px;
   }
-
-  #label1 input{
-position: relative;
-top: 1px;
-
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 8em);
   }
   
+  .cuerpo {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  aside {
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    
+    position: relative;
+  }
+  
+  section {
+    background-color: white;
+    flex-grow: 1;
+  }
 
+  aside img{
+    height: 600px;
+    width: 800px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    height: auto;
+  }
+
+  aside h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 34px;
+    
+  } 
+  section h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    top: 40px;
+    left: 85px;
+    font-size: 34px;
+  }
+  section h2{
+    position: relative;
+    top: 40px;
+    left: 85px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+  }
+  
+ form label {
+    font-weight: bold;
+    font-size: 20px; 
+    margin-bottom: 15px; 
+  }
+  
+  h2{
+    font-weight: unset;
+  }
+  .form-group label{
+    font-weight: unset;
+  }
+  
+  .form-group{
+
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  #signup-button {
+    background-color: rgb(38, 182, 38);
+    color: white;
+    border: none;
+    border: 1px solid #1d1c1c;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 5px 10px; 
+    font-size: 15px; 
+  }
